@@ -1,0 +1,78 @@
+.stats {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.stats div {
+    width: 40%;
+    padding: 14px;
+    background-color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+}
+
+.stats .files, .stats .users {
+    border-right: 1px solid #c2c5cc;
+}
+
+.countStyle {
+    font-size: 35px;
+    padding-left: 5px;
+    font-weight: 200;
+}
+
+.alerts-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.alerts-container h3{
+    line-height: 1.1;
+    font-size: 20px;
+    font-weight: 100;
+    background: #fff;
+    color: rgb(102, 98, 98);
+    border-bottom: #c2c5cc;
+    padding: 10px;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.alert-message{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-indent: 8px;
+    margin: 1px solid black;
+    border-bottom: 1px solid #dbdedf;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.alert-messages {
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.alerts-container .alert {
+    background: #fff;
+    border-bottom: #8f9299;
+    padding: 10px;
+}
+
+.icons {
+    color: rgb(51, 48, 48);
+    width: 30px;
+    float: left;
+    font-size: 14px;
+}
